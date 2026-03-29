@@ -1,9 +1,6 @@
 
 # Hotel-Front-desk-Virtual-Assistant-with-Voice
 
-# Hotel Front Desk AI — NLP Assignment 3
-
-
 A domain-restricted, conversational AI system for hotel front-desk operations.  
 Guests interact through a real-time chat interface powered by a locally running LLM (Qwen 2.5-3B via Ollama), now with **voice support** (Moonshine ASR for speech-to-text, Piper TTS for text-to-speech).
 
