@@ -1,0 +1,7 @@
+FROM qwen2.5:3b
+
+PARAMETER num_ctx 1300
+PARAMETER num_predict 90
+PARAMETER temperature 0.35
+PARAMETER top_p 0.82
+PARAMETER num_thread 0
