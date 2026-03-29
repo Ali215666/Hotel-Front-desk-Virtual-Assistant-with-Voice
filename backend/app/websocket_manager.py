@@ -30,7 +30,9 @@ class WebSocketManager:
             websocket: WebSocket connection to register
         """
         try:
-            await websocket.accept()
+            # Some endpoints accept the socket before calling manager.connect.
+            if websocket.client_state.name == "CONNECTING":
+                await websocket.accept()
             async with self._lock:
                 # If session already exists, close the old connection first
                 if session_id in self.active_connections:
