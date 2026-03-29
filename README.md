@@ -20,7 +20,8 @@ Guests interact through a real-time chat interface powered by a locally running 
 
 ## Architecture Diagram
 
-<img width="1309" height="618" alt="Screenshot 2026-03-06 004831" src="https://github.com/user-attachments/assets/249aa007-bd12-429f-ad13-f051feb3f591" />
+<img width="923" height="181" alt="image" src="https://github.com/user-attachments/assets/b9897937-f12c-49c4-b579-e28e764becd1" />
+
 
 
 
